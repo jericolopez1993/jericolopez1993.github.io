@@ -146,7 +146,7 @@
             </div>
 
             <div data-date="April 2024 – Present" style="border-top: 2px solid #2ab7a9; padding-top: 10px;">
-                <h3>Hirolabs LLC. — Remote <span style="font-size: 0.65em; background: #2ab7a9; color: #fff; padding: 2px 8px; border-radius: 4px; margin-left: 6px; vertical-align: middle;">Freelance · Active</span></h3>
+                <h3>Hirolabs LLC. — Remote <span style="font-size: 0.65em; background: #2ab7a9; color: #fff; padding: 2px 8px; border-radius: 4px; margin-left: 6px; vertical-align: middle;">Part-Time · Active</span></h3>
                 <h4>AI Software Engineer</h4>
                 <p>
                     Integrated OpenAI (GPT &amp; DALL-E) and Claude API into a content platform, enabling automated article writing, AI image generation, and writing profile management. Built an audio/video transcription pipeline that converts recordings into structured prompts used by the AI to generate polished articles. Developed reusable components that cut development time across multiple features, and introduced debugging practices that meaningfully reduced defect rates.
@@ -169,6 +169,13 @@
             </p>
         </div>
         <!-- End .education-block -->
+        <div class="education-block">
+            <h3>Team Mission Christian School</h3>
+            <span class="education-date">2010</span>
+            <h4>High School Diploma</h4>
+            <p>Marilao, Bulacan</p>
+        </div>
+        <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
@@ -176,6 +183,26 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+                <div class="project shadow-large no-image">
+                    <div class="project-info" style="text-align: left;">
+                      <div>
+                        <h3>EduLearn — School Management &amp; E-Learning Platform <span style="font-size: 0.55em; background: #3498db; color: #fff; padding: 2px 8px; border-radius: 4px; margin-left: 6px; vertical-align: middle;">Personal Project</span></h3>
+                        <p>
+                          A multi-tenant school management and e-learning platform covering admissions, enrolment, LMS content, assignments, attendance, grading, report cards, fees, library, and timetabling.
+                        </p>
+                        <ul style="color: #74808a; font-size: 0.9em; padding-left: 18px; margin: 0 0 15px 0;">
+                          <li>JWT authentication (Devise) and role-based authorization (Pundit) for 7 roles, with strict per-school data scoping and separate serializers so students never receive answer keys, rubrics, or other students' marks.</li>
+                          <li>Public online admissions flow — application submission, reference-number status lookup, staff review queue, and approval that provisions the student account and emails an activation link — with self-registration disabled.</li>
+                          <li>Claude API integration that generates curriculum-aligned lesson plans, unit activities, and graded assessments, including prompt construction, response parsing into the domain schema, and a teacher review step before persistence.</li>
+                          <li>Role-specific dashboards and analytics (school KPIs, per-subject performance, per-student academic tracking) across ~100 React screens; background jobs on Sidekiq/Redis and file storage via Active Storage/Cloudinary.</li>
+                        </ul>
+                        <p><em>Stack: Ruby on Rails 8.1 (API), Next.js 16 / TypeScript, PostgreSQL, Sidekiq/Redis, Claude API</em></p>
+                      </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/school_management.png" class="h-300"/>
@@ -316,9 +343,16 @@
             <li>Capybara</li>
             <li>Selenium</li>
             <li>Cursor AI</li>
+            <li>Asana / Jira</li>
+            <li>ClickUp</li>
             <li>Make.com</li>
             <li>Apify</li>
+            <li>WordPress</li>
             <li>Ionic</li>
+            <li>Cassandra</li>
+            <li>Next.js</li>
+            <li>TypeScript</li>
+            <li>Sidekiq / Redis</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -338,6 +372,9 @@
                 </div>
                 <div class="col-sm-5 social">
                     <ul>
+                        <li>
+                            <a href="mailto:jerico.lopez1993@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
                         <li>
                             <a href="https://github.com/jericolopez1993" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
